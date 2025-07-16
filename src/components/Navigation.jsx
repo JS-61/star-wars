@@ -1,11 +1,11 @@
 import NavItem from "./NavItem.jsx";
 import {navItems} from "../utils/constants.js";
 
-const Navigation = ({changePage}) => {
+const Navigation = () => {
     return (
         <nav>
-            <ul className="nav fixed-top mt-1 ms-5">
-                {navItems.map(item => <NavItem changePage={changePage} itemTitle={item} key={item}/>)}
+            <ul className="fixed top-4 left-12 flex gap-4 bg-white shadow-md px-4 py-2 rounded-md z-50">
+                {navItems.map(item => <NavItem itemTitle={item} key={item}/>)}
             </ul>
         </nav>
     );

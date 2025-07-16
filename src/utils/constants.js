@@ -40,14 +40,7 @@ The original 1977 film, retroactively subtitled Episode IV: A New Hope, was foll
 
 All nine films, collectively referred to as the "Skywalker Saga", were nominated for Academy Awards, with Oscars going to the first three releases. Together with the theatrical live action "anthology" films Rogue One (2016) and Solo (2018), the combined box office revenue of the films equate to over US$10 billion, making Star Wars the third-highest-grossing film franchise in cinematic history.`;
 
-export const details = [
-    { label: "ID", value: aboutMe.id },
-    { label: "Gender", value: aboutMe.gender },
-    { label: "Birth Date", value: aboutMe.birth_year },
-    { label: "Height", value: `${aboutMe.height} см` },
-    { label: "Weight", value: `${aboutMe.mass} кг` },
-    { label: "Hair color", value: aboutMe.hair_color },
-    { label: "Eye color", value: aboutMe.eye_color },
-    { label: "Skin color", value: aboutMe.skin_color },
-    { label: "Home world", value: aboutMe.homeworld },
-];
+
+
+
+export const period_month = 30 * 24 * 60 * 60 * 1000;
